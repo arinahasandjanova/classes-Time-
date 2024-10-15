@@ -16,7 +16,7 @@ template <typename T>
 void Matrix<T>::MakeRectangle(){
 	size_t maxSize=0;
 	for(const auto& row: data){
-		if(row.size()<maxSize){
+		if(row.size()>maxSize){
 			maxSize=row.size();
 		}
 	}
@@ -24,4 +24,12 @@ void Matrix<T>::MakeRectangle(){
 		row.resize(maxSize);
 	}
 }
+template <typename T>
+T& Matrix<T>::operator() (size_t i, size_t j){
+			return data[i][j];
+		}
+template <typename T>
+const T& Matrix<T>::operator() (size_t i, size_t j) const{
+			return data[i][j];
+		}
 #endif //MATRIX_HPP
