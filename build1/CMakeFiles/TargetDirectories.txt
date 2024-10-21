@@ -1,0 +1,4 @@
+/home/stud-12/Desktop/arina/classes-Time-/build1/CMakeFiles/mytime.dir
+/home/stud-12/Desktop/arina/classes-Time-/build1/CMakeFiles/prog.dir
+/home/stud-12/Desktop/arina/classes-Time-/build1/CMakeFiles/edit_cache.dir
+/home/stud-12/Desktop/arina/classes-Time-/build1/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ "CMakeFiles/classes-Time-.dir/main.cpp.o" -o classes-Time-  -Wl,-rpath,/home/stud-12/Desktop/arina/classes-Time-/build libmytime.so 
